@@ -1,4 +1,5 @@
 import Link from 'next/link'
+import Image from 'next/image'
 
 export default function FirstPost() {
     return(
@@ -8,6 +9,9 @@ export default function FirstPost() {
                 <Link href="/">
                     <a>Back to home</a>
                 </Link>
+                <Image
+                    src="../../img/"
+                />
             </h2>
         </>
     )
